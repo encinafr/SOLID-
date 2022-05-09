@@ -91,7 +91,7 @@ namespace _4_Interface_Segregation_Principle
 
         public void Print(Document d)
         {
-            printer.Print(d)
+            printer.Print(d);
         }
 
         public void Scan(Document d)
